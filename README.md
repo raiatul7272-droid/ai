@@ -1,4 +1,4 @@
-# Astra AI Chat
+# RADHE
 
 Python aur Streamlit par bana local AI chatbot. Yeh Gemini ya Groq ke saath
 real-time streaming chat karta hai, aur conversations ko local SQLite database

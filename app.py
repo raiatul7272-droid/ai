@@ -19,7 +19,7 @@ SYSTEM_PROMPT = (
 load_dotenv(BASE_DIR / ".env")
 
 st.set_page_config(
-    page_title="Astra AI Chat",
+    page_title="RADHE",
     page_icon="✦",
     layout="centered",
     initial_sidebar_state="expanded",
@@ -289,7 +289,7 @@ if "conversation_id" not in st.session_state:
     )
 
 with st.sidebar:
-    st.markdown("## ✦ Astra AI")
+    st.markdown("## RADHE")
     st.caption("Aapki chats is browser session tak private hain.")
     if st.button("＋  Nayi chat", use_container_width=True):
         st.session_state.conversation_id = create_conversation(owner_id)
@@ -321,7 +321,7 @@ with st.sidebar:
         st.rerun()
 
 st.markdown(
-    '<div class="hero"><h1>✦ Astra AI</h1>'
+    '<div class="hero"><h1>RADHE</h1>'
     "<p>Aapka personal AI assistant — kuch bhi poochhein.</p></div>",
     unsafe_allow_html=True,
 )
